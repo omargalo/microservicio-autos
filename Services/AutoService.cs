@@ -1,6 +1,6 @@
-using MicroservicioAutos.Models;
+using MicroServicioAutos.Models;
 
-namespace MicroservicioAutos.Services
+namespace MicroServicioAutos.Services
 {
     public class AutoService
     {

@@ -1,4 +1,4 @@
-namespace MicroservicioAutos.Models
+namespace MicroServicioAutos.Models
 {
     public class Auto
     {
