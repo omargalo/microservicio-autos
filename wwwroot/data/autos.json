@@ -1,0 +1,88 @@
+﻿[
+    {
+        "marca": "Alfa Romeo",
+        "modelo": "Giulia",
+        "año": 2022,
+        "precio": 950000,
+        "color": "Rojo"
+    },
+    {
+        "marca": "Alfa Romeo",
+        "modelo": "Stelvio",
+        "año": 2023,
+        "precio": 1100000,
+        "color": "Blanco"
+    },
+    {
+        "marca": "Alfa Romeo",
+        "modelo": "Tonale",
+        "año": 2024,
+        "precio": 870000,
+        "color": "Gris"
+    },
+    {
+        "marca": "Alfa Romeo",
+        "modelo": "4C Spider",
+        "año": 2021,
+        "precio": 1200000,
+        "color": "Negro"
+    },
+
+    {
+        "marca": "Rolls Royce",
+        "modelo": "Phantom",
+        "año": 2023,
+        "precio": 9500000,
+        "color": "Negro"
+    },
+    {
+        "marca": "Rolls Royce",
+        "modelo": "Ghost",
+        "año": 2022,
+        "precio": 8200000,
+        "color": "Gris"
+    },
+    {
+        "marca": "Rolls Royce",
+        "modelo": "Cullinan",
+        "año": 2024,
+        "precio": 9800000,
+        "color": "Blanco"
+    },
+    {
+        "marca": "Rolls Royce",
+        "modelo": "Wraith",
+        "año": 2021,
+        "precio": 9100000,
+        "color": "Azul"
+    },
+
+    {
+        "marca": "Lamborghini",
+        "modelo": "Huracán EVO",
+        "año": 2023,
+        "precio": 6200000,
+        "color": "Amarillo"
+    },
+    {
+        "marca": "Lamborghini",
+        "modelo": "Aventador S",
+        "año": 2022,
+        "precio": 7800000,
+        "color": "Verde"
+    },
+    {
+        "marca": "Lamborghini",
+        "modelo": "Urus",
+        "año": 2024,
+        "precio": 6300000,
+        "color": "Gris"
+    },
+    {
+        "marca": "Lamborghini",
+        "modelo": "Revuelto",
+        "año": 2024,
+        "precio": 9000000,
+        "color": "Naranja"
+    }
+]
