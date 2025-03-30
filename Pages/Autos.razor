@@ -1,0 +1,46 @@
+@page "/autos"
+@using MicroservicioAutos.Models
+@using MicroservicioAutos.Services
+@inject AutoService AutoService
+
+<h3>Catálogo de Autos</h3>
+
+@if (catalogo == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Año</th>
+                <th>Precio</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var auto in catalogo)
+            {
+                <tr>
+                    <td>@auto.Marca</td>
+                    <td>@auto.Modelo</td>
+                    <td>@auto.Año</td>
+                    <td>@auto.Precio.ToString("C")</td>
+                    <td>@auto.Color</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Auto>? catalogo;
+
+    protected override async Task OnInitializedAsync()
+    {
+        catalogo = await AutoService.ObtenerCatalogoAsync();
+    }
+}
